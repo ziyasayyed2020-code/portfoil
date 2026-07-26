@@ -38,6 +38,7 @@ nav a{
 nav a:hover{
     color:#209f54;
 }
+/* ---------- intro Section ---------- */
 .hero{
     display: flex;
     justify-content: space-between;
@@ -114,6 +115,7 @@ nav a:hover{
 
     transform:translateY(-3px);
 }
+/* ---------- Pabout me Section ---------- */
 .about{
     padding: 40px;
     min-height: 90vh;
@@ -126,6 +128,17 @@ nav a:hover{
     max-width: 600px;
     margin: 0 auto;
 }
+.about p{
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.8;
+    text-align: center;
+    font-size: 20px;
+}
+.about h2{
+    margin-bottom: 30px;
+}
+/* ---------- skills Section ---------- */
 .skills{
     display:flex;
     flex-direction:column;
@@ -133,7 +146,6 @@ nav a:hover{
     text-align:center;
     min-height:90vh;
 }
-
 .skills-container{
     display:flex;
     justify-content:center;
@@ -162,4 +174,90 @@ nav a:hover{
 .card:hover{
     transform: translateY(-8px);
     box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+.contact{
+    padding:80px 40px;
+    text-align: center;
+}
+.contact h2{
+    font-size:40px;
+    margin-bottom: 20px;
+}
+.contact-text{
+    max-width:700px;
+    margin:0 auto 40px;
+    color:#555;
+    line-height: 1.7;
+}
+.contact-info p{
+    font-size:18px;
+    margin:12px 0;
+}
+/* ---------- Projects Section ---------- */
+
+.projects{
+    
+
+    padding: 80px 10%;
+    background-color: #f8f9fa;
+}
+
+.projects h2{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #222;
+    margin-bottom: 50px;
+}
+
+.projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.projects-card{
+    width: 320px;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+}
+
+.projects-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.projects-card h3{
+    font-size: 1.4rem;
+    color: #209f54;
+    margin-bottom: 15px;
+}
+
+.projects-card p{
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.social-links{
+    margin-top:35px;
+}
+
+.social-links a{
+    text-decoration:none;
+    background:#209f54;
+    color:white;
+    padding:12px 24px;
+    border-radius:8px;
+    margin:0 10px;
+    transition:0.3s;
+}
+
+.social-links a:hover{
+    background:#167843;
 }
