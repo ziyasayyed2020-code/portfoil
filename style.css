@@ -48,7 +48,7 @@ nav a:hover{
     gap: 70px;
 }
 .hero h1{
-    font-size: 50px;
+    font-size: 45px;
     margin-bottom: 10px;
 }
 .hero h2{
@@ -56,7 +56,7 @@ nav a:hover{
     margin-bottom: 16px;
 }
 .hero p{
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.0;
 }
 .hero-text{
@@ -120,6 +120,7 @@ nav a:hover{
     gap: 70px;
     text-align: center;
     line-height: 1.5;
+    font-size: 16px;
 }
 .about-text {
     max-width: 600px;
