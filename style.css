@@ -64,7 +64,7 @@ nav a:hover{
 }
 .hero-text p{
     max-width: 520px;
-    line-height: 1.0;
+    line-height: 1.5;
 }
 .image img {
     width:320px;
@@ -119,18 +119,26 @@ nav a:hover{
     min-height: 90vh;
     gap: 70px;
     text-align: center;
+    line-height: 1.5;
 }
 .about-text {
     max-width: 600px;
     margin: 0 auto;
 }
-.about-me{
+.skills{
+    display:flex;
+    flex-direction:column;
+    padding:40px;
+    text-align:center;
+    min-height:90vh;
+}
+
+.skills-container{
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
-    gap: 40px;
-    margin-top: 60px;
-
+    gap:40px;
+    margin-top:50px;
 }
 .card{
     background:white;
